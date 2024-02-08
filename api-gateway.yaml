@@ -3,7 +3,7 @@ eureka.client:
 
 management:
    endpoint.gateway.enabled: true
-#   endpoints.web.exposure.include: '*'
+   endpoints.web.exposure.include: '*'
 
 spring.cloud.gateway:
    discovery.locator:
